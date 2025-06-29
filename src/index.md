@@ -1,4 +1,6 @@
-# Home Page of Dennis C. M.
+---
+title: "Home Page of Dennis C. M."
+---
 
 Welcome!    
 

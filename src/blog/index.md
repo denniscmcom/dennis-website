@@ -1,5 +1,7 @@
-# Blog
+---
+title: "Blog | Dennis C. M."
+---
 
 | Id  | Date       | Title          			|        |
 |-----|------------|----------------------------|--------|
-| 001 | 29/06/2025 | Hello world    	        | [Read](001_hello_world.html) |
+| 001 | 2025-06-29 | Hello world    	        | [Read](001_hello_world.html) |
