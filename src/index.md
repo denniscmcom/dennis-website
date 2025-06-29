@@ -1,10 +1,8 @@
-# Home Page for Dennis C. M.
-
 Welcome!    
-I'm currently building this thing called Dennis Micro Computers. 
-Check it out [here](https://dennismicros.com)   
-If you like what I do, I am available to work.
 
+I’m a programmer based in Spain with interests in systems programming, hardware 
+design, and networking. If you like what I do, I am available to work.
+ 
 ## Contact
 
 ### By e-mail:
@@ -13,5 +11,6 @@ If you like what I do, I am available to work.
 
 ### Social networks:
 
-- [Youtube](https://youtube.com/@denniscmcom)
+- [Youtube](https://youtube.com/@denniscm6)
+- [Github](https://github.com/denniscmcom)
 
