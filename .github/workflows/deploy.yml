@@ -16,5 +16,5 @@ jobs:
         accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         preCommands: |
           sudo apt-get install pandoc
-          make
+          make build
         command: pages deploy build --project-name=dennis-website
