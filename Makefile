@@ -3,7 +3,10 @@ SRC_DIR := denniscm.com
 BUILD_DIR := build
 
 .PHONY: all
-all:
+all: dev build
+
+.PHONY: build
+build:
 	rm -rf $(BUILD_DIR)
 	mkdir $(BUILD_DIR)
 	mkdir $(BUILD_DIR)/blog
@@ -13,5 +16,5 @@ all:
 	$(PANDOC) $(SRC_DIR)/blog/001_hello_world.md -o $(BUILD_DIR)/blog/001_hello_world.html
 
 .PHONY: dev
-dev:
+dev: build
 	cd build && python3 -m http.server 8080
