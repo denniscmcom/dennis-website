@@ -30,6 +30,13 @@ header {
 	margin-bottom: 20px;
 }
 
+header .author,
+header .date {
+	font-style: italic;
+	margin-bottom: 0px;
+	margin-top: 0px
+}
+
 footer {
 	margin-top: 20px;
 }
@@ -67,4 +74,21 @@ tr:nth-child(even) {
 p {
 	margin-top: 10px;
 	margin-bottom: 10px;
+}
+
+img:not(footer img) {
+	width: 100%;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+
+code {
+	background-color: #f4f4f4;
+	font-size: 1rem;
+}
+
+figcaption {
+	font-style: italic;
+	text-decoration: underline;
 }

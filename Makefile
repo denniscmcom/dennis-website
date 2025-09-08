@@ -1,5 +1,5 @@
 PANDOC := pandoc -s -c /style.css -B www/header.html -A www/footer.html 
-SRC_DIR := denniscm.com
+SRC_DIR := src
 BUILD_DIR := build
 
 .PHONY: all
@@ -11,9 +11,8 @@ build:
 	mkdir $(BUILD_DIR)
 	mkdir $(BUILD_DIR)/blog
 	cp www/style.css $(BUILD_DIR)/style.css
+	cp -r www/resources $(BUILD_DIR)/resources
 	$(PANDOC) $(SRC_DIR)/index.md -o $(BUILD_DIR)/index.html 
-	$(PANDOC) $(SRC_DIR)/blog/index.md -o $(BUILD_DIR)/blog/index.html
-	$(PANDOC) $(SRC_DIR)/blog/001_hello_world.md -o $(BUILD_DIR)/blog/001_hello_world.html
 
 .PHONY: dev
 dev: build
