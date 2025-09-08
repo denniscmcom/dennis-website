@@ -11,7 +11,6 @@ build:
 	mkdir $(BUILD_DIR)
 	mkdir $(BUILD_DIR)/blog
 	cp www/style.css $(BUILD_DIR)/style.css
-	cp -r www/resources $(BUILD_DIR)/resources
 	$(PANDOC) $(SRC_DIR)/index.md -o $(BUILD_DIR)/index.html 
 
 .PHONY: dev
