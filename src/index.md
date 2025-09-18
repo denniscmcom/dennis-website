@@ -19,3 +19,5 @@ Outside of my main interests, I enjoy many other things. I’m into boxing, phot
 - [Youtube](https://youtube.com/@denniscmcom)
 - [Github](https://github.com/denniscmcom)
 - [Instagram](https://instagram.com/denniscmcom)
+- [Twitter](https://x.com/denniscmcom)
+- [Linkedin](https://www.linkedin.com/in/denniscmcom/)
